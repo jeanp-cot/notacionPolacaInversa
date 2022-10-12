@@ -33,7 +33,7 @@ public class Main {
                     notacionNPI += operacion.charAt(i);
                     break;
                 default:
-                    System.out.println("Que carajos ingresaste, no es ni un numero o un signo de agrupacion");
+                    System.out.println("Que carajos ingresaste, no es ni un numero, signo de agrupacion u operacion");
                     break;
             }
         }
